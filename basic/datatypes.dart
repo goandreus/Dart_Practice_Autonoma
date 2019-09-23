@@ -16,4 +16,32 @@ main() {
   print(y);
   print(z);
 
+
+  //String
+  String nombre = 'Andres'; // caracter ligero
+  String nombre2 = "Andres"; //caso de uso por nombre
+  String nombre3 = "O\'Connnor"; //ejemplo de caso de uso
+  String nombre4 = 'O\Connor'; //Solucion
+
+  //string multilinea
+  String multilinea = '''   
+
+  Hola mundo
+  Como estan?
+  O'Connor
+  
+  ''';  
+
+  print(multilinea);
+
+   String multilinea2 = """   
+
+  Hola mundo
+  Como estan?
+  O'Connor
+  
+  """;  
+
+  print(multilinea2);
+
 }
